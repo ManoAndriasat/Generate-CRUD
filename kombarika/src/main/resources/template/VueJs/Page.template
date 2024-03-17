@@ -6,6 +6,10 @@
                 <button style="margin-top: 70px;" type="button" class="ajoute btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Ajouter
                 </button>
+
+                <input type="file" @change="handleFileUpload">
+                <button @click="convertCSVtoJSON">Upload CSV</button>
+                
                 <table class="table">
                     <thead>
                         <tr>
@@ -128,6 +132,8 @@ export default {
             #column#
             #ListeFK#
             liste: [],
+            csvData: null,
+            jsonData: null,
             selectedItem: {},
             #selectedFK#
         };
@@ -150,6 +156,51 @@ export default {
                 console.error('Erreur lors de la récupération de l\'élément:', error);
             }
         },
+        handleFileUpload(event) {
+            const file = event.target.files[0];
+            const reader = new FileReader();
+            reader.onload = () => {
+                this.csvData = reader.result;
+            };
+            reader.readAsText(file);
+        },
+        convertCSVtoJSON() {
+            if (!this.csvData) {
+                alert('Veuillez d\'abord importer un fichier CSV.');
+                return;
+            }
+
+            const lines = this.csvData.split('\n');
+            const headers = lines[0].trim().split(';');
+            const output = [];
+
+            for (let i = 1; i < lines.length; i++) {
+                const obj = {};
+                const currentLine = lines[i].trim().split(';');
+
+                for (let j = 0; j < headers.length; j++) {
+                obj[headers[j]] = currentLine[j];
+                }
+
+                output.push(obj);
+            }
+
+            this.jsonData = output;
+            this.addElementCsv();
+        },
+        async addElementCsv() {
+            if (!this.jsonData) {
+                alert('Veuillez d\'abord convertir le CSV en JSON.');
+                return;
+            }
+            const jsonData = JSON.parse(this.jsonData);
+
+            for (const data of jsonData) {
+                #csv-column#
+                await this.addElement();
+            }
+            alert('Tous les éléments du CSV ont été insérés avec succès.');
+        }
         async addElement() {
             try {
                 const response = await fetch('#API#/#table#', {
