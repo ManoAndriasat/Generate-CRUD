@@ -55,6 +55,7 @@ public class VueJs {
                 .replace("#api-FK#", generateApiFK(foreignkeys, API))
                 .replace("#selectedFKFunction#", generateSelectedFKFunction(foreignkeys))
                 .replace("#selectedFK#", generateSelectedFK(foreignkeys));
+                .replace("#csv-column", generateCsvColumn(combinedMap));
         return res;
     }
 
@@ -193,6 +194,15 @@ public class VueJs {
         }
 
         return updateColumnBuilder.toString();
+    }
+
+    private static String generateCsvColumn(HashMap<String, String> columns) {
+        StringBuilder addColumnBuilder = new StringBuilder();
+        for (String columnName : columns.keySet()) {
+            addColumnBuilder.append("this.").append(ObjectUtility.formatToCamelCase(columnName)).append(" = data.")
+                    .append(ObjectUtility.formatToCamelCase(columnName)).append(";\n\t\t\t\t\t\t\t\t");
+        }
+        return addColumnBuilder.toString();
     }
 
     private static String generateApiAddColumn(HashMap<String, String> columns) {

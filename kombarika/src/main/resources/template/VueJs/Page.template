@@ -6,7 +6,7 @@
                 <button style="margin-top: 70px;" type="button" class="ajoute btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Ajouter
                 </button>
-
+                
                 <input type="file" @change="handleFileUpload">
                 <button @click="convertCSVtoJSON">Upload CSV</button>
                 
