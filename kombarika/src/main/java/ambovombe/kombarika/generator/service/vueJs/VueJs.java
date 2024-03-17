@@ -54,7 +54,7 @@ public class VueJs {
                 .replace("#mounted-api-FK#", generateMountedApiFK(foreignkeys))
                 .replace("#api-FK#", generateApiFK(foreignkeys, API))
                 .replace("#selectedFKFunction#", generateSelectedFKFunction(foreignkeys))
-                .replace("#selectedFK#", generateSelectedFK(foreignkeys));
+                .replace("#selectedFK#", generateSelectedFK(foreignkeys))
                 .replace("#csv-column", generateCsvColumn(combinedMap));
         return res;
     }
