@@ -1,35 +1,47 @@
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\configuration\Configuration.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\generator\service\view\View.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\Test.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\utils\Misc.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\ForeignKey.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\generator\service\repository\Repository.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\TypeProperty.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\RepositoryProperty.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\AnnotationProperty.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\configuration\main\ViewDetails.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\generator\parser\FileUtility.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\generator\parser\JsonUtility.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\generator\service\controller\Controller.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\generator\utils\ObjectUtility.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\LanguageProperties.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\generator\CodeGenerator.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\generator\service\DbService.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\CrudMethod.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\properties\DatabaseType.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\ControllerProperty.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\database\DbProperties.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\generator\service\GeneratorService.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\TypeMapping.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\FrameworkProperties.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\database\DbConnection.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\generator\CLIReader.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\configuration\main\ViewVueJsDetails.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\Imports.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\Constraint.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\configuration\main\FrameworkDetails.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\configuration\main\TypeProperties.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\App.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\generator\service\entity\Entity.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\configuration\main\LanguageDetails.java
-D:\Informatique et Technologie\Coding\Generate-crud\kombarika\src\main\java\ambovombe\kombarika\generator\service\view\ViewVueJs.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\AnnotationProperty.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\TypeProperty.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\App.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\main\FrameworkDetails.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\generator\service\DbService.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\generator\service\view\ViewVueJs.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\generator\CLIReader.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\ImportsControllerRest.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\generator\service\vueJs\VueJs.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\Imports.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\generator\service\entity\Entity.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\utils\Misc.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\main\MainSpringDetails.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\RepositoryProperty.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\generator\parser\JsonUtility.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\ControllerProperty.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\Test.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\AnnotationPropertyControllerRest.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\main\ApplicationProprietiesDetails.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\main\TypeProperties.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\CrudMethod.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\generator\service\vueJs\SideBar.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\main\LanguageDetails.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\main\ViewDetails.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\generator\service\vueJs\Router.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\LanguageProperties.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\TypeMapping.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\generator\service\GeneratorService.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\FrameworkProperties.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\generator\service\springUtils\MainSpring.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\properties\DatabaseType.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\Configuration.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\generator\service\repository\Repository.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\generator\service\controller\Controller.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\Constraint.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\main\ViewVueJsDetails.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\generator\parser\FileUtility.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\generator\service\springUtils\ApplicationProprieties.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\CrudMethodRestController.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\generator\CodeGenerator.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\generator\service\controller\ControllerRest.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\database\DbConnection.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\database\DbProperties.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\generator\service\view\View.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\ControllerRestProperty.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\configuration\mapping\ForeignKey.java
+C:\Users\Mano\Documents\GitHub\Generate-CRUD\kombarika\src\main\java\ambovombe\kombarika\generator\utils\ObjectUtility.java

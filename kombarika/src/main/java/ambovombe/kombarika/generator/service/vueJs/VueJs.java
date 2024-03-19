@@ -55,7 +55,7 @@ public class VueJs {
                 .replace("#api-FK#", generateApiFK(foreignkeys, API))
                 .replace("#selectedFKFunction#", generateSelectedFKFunction(foreignkeys))
                 .replace("#selectedFK#", generateSelectedFK(foreignkeys))
-                .replace("#csv-column", generateCsvColumn(combinedMap));
+                .replace("#csv-column#", generateCsvColumn(combinedMap));
         return res;
     }
 
@@ -200,7 +200,7 @@ public class VueJs {
         StringBuilder addColumnBuilder = new StringBuilder();
         for (String columnName : columns.keySet()) {
             addColumnBuilder.append("this.").append(ObjectUtility.formatToCamelCase(columnName)).append(" = data.")
-                    .append(ObjectUtility.formatToCamelCase(columnName)).append(";\n\t\t\t\t\t\t\t\t");
+                    .append(ObjectUtility.formatToCamelCase(columnName)).append(";\n\t\t\t");
         }
         return addColumnBuilder.toString();
     }
