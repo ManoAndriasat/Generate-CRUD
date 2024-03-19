@@ -195,6 +195,8 @@ export default {
             }
 
             this.jsonData = output;
+            console.log(this.jsonData);
+
             this.addElementCsv();
         },
         async addElementCsv() {
